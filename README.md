@@ -1,3 +1,3 @@
 # ARCyber123.github.io
-Technology articles website -  
-Made with ONLY HTML & CSS!
+Technology articles website.  
+Made with nothing but code!

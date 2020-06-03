@@ -30,6 +30,8 @@ h1 {
 html {
     font-family:'Noto Sans JP';
     font-size: xx-large;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 img {
     width: 80%;

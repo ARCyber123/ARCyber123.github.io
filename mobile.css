@@ -27,11 +27,9 @@
 h1 {
     color:rgb(194, 6, 6);
 }
-html {
+body {
     font-family:'Noto Sans JP';
     font-size: xx-large;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 img {
     width: 80%;

@@ -6,7 +6,6 @@
     margin-top: -43px;
     padding-bottom: 5px;
     margin-left: -8px;
-    padding: 5px;
 }
 .topnav a {
     float: right;
@@ -31,6 +30,8 @@ h1 {
 body {
     font-family:'Noto Sans JP';
     font-size: xx-large;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 img {
     width: 80%;

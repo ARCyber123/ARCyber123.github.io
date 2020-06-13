@@ -30,7 +30,7 @@ h1 {
     color:rgb(194, 6, 6);
 }
 body {
-    font-family:'Noto Sans JP';
+    font-family:'Noto Sans JP', sans-serif;
     font-size: xx-large;
 }
 img {

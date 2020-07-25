@@ -41,3 +41,6 @@ footer {
 .w60 {
     width: 60%;
 }
+code {
+    background-color: lightgray;
+}

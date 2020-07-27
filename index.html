@@ -1,78 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-<meta name="msapplication-TileColor" content="#bfbfbf">
-<meta name="theme-color" content="#ffffff">
-<script>
-	if (screen.width <= 699) {
-	document.location = "mobile/";
-	}
-</script>
-<title>ARTech</title>
-<style>
-	.topnav {
-		background-color: blue;
-		position: fixed;
-		width: 100%;
-		height: 55px;
-		margin-top: -14px;
-		margin-left: -8px;
-		box-shadow: 0px 2px 2px gray;
-	}
-	.topnav a {
-  		float: right;
- 		color: #f2f2f2;
-  		text-align: right;
-  		text-decoration: none;
-  		font-size: 20px;
-		margin-right: 3px;
-		margin-left: 10px;
-		padding-top: 9px;
-	}
-	.topnav a:hover {
-		color: orange;
-	}
-	.topnav h1 {
-		margin-top: -6px;
-		color: white;
-		margin-left: 2px;
-	}
-	h1 {
-		font-weight:bold;
-		color:rgb(194, 6, 6);
-	}
-	html {
-		font-family:'Noto Sans JP', sans-serif;
-	}
-	.limg {
-		width:12%;
-		float:left;
-		margin-right: 6px;
-		padding-bottom: 20px;
-	}
-	.links {
-		display:inline-block;
-		text-decoration:none;
-		color:black;
-		font-weight: bold;
-		width:100%;
-	}
-	footer {
-		color: gray;
-		margin-top:70px;
-	}
-	.desc {
-		color: gray;
-		font-weight: normal;
-	}
-</style>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="msapplication-TileColor" content="#bfbfbf">
+	<meta name="theme-color" content="#ffffff">
+	<script>
+		if (screen.width <= 699) {
+			document.location = "mobile/";
+		}
+	</script>
+	<title>ARTech</title>
+	<style>
+		.topnav {
+			background-color: blue;
+			position: fixed;
+			width: 100%;
+			height: 55px;
+			margin-top: -14px;
+			margin-left: -8px;
+			box-shadow: 0px 2px 2px gray;
+		}
+
+		.topnav a {
+			float: right;
+			color: #f2f2f2;
+			text-align: right;
+			text-decoration: none;
+			font-size: 20px;
+			margin-right: 3px;
+			margin-left: 10px;
+			padding-top: 9px;
+		}
+
+		.topnav a:hover {
+			color: orange;
+		}
+
+		.topnav h1 {
+			margin-top: -6px;
+			color: white;
+			margin-left: 2px;
+		}
+
+		h1 {
+			font-weight: bold;
+			color: rgb(194, 6, 6);
+		}
+
+		html {
+			font-family: 'Noto Sans JP', sans-serif;
+		}
+
+		.limg {
+			width: 12%;
+			float: left;
+			margin-right: 6px;
+			padding-bottom: 20px;
+		}
+
+		.links {
+			display: inline-block;
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+			width: 100%;
+		}
+
+		footer {
+			color: gray;
+			margin-top: 70px;
+		}
+
+		.desc {
+			color: gray;
+			font-weight: normal;
+		}
+	</style>
 </head>
+
 <body>
 	<div class="topnav">
 		<a href="https://github.com/ARTech-7/ARTech-7.github.io">GitHub</a>
@@ -82,24 +93,29 @@
 		<source src="logo.mp4">
 	</video>
 	<p>Welcome to ARTech!<br>
-	 	This website is one that discusses about many topics related to technology and software.
-	  	The topics here keep expanding. Today, this website is just starting out. Later, we'll
+		This website is one that discusses about many topics related to technology and software.
+		The topics here keep expanding. Today, this website is just starting out. Later, we'll
 		have many more topics.</p>
 	<p>Some topics that we'll focus on are: Linux, Open-source Software and Web Development.</p>
 	<h2>Web Development</h2>
 	<a href="hosting-on-github.html" class="links"><img src="apple-touch-icon.png" class="limg" alt="ARTech logo">
-	<p>Hosting Your Own Website:
-	Learn how to host your website with HTML & CSS using GitHub Pages<br><span class="desc">How I made this website</span>
-	</p></a>
+		<p>Hosting Your Own Website:
+			Learn how to host your website with HTML & CSS using GitHub Pages<br><span class="desc">How I made this website</span>
+		</p>
+	</a>
 	<h2>Linux</h2>
 	<a href="consider-linux.html" class="links"><img src="images/linux-logo.jpg" class="limg" alt="
 		Linux logo">
-	<p>Why You Should Consider Linux: Pros and cons of Linux<br><span class="desc">Why I use Linux</span></p></a>
-	<a href="arch-beginners-guide.html" class="links"><img src=
-		"https://www.archlinux.org//static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="Arch Linux logo"
-		class="limg" style="padding-bottom: 10px;"><p>Beginner's guide to Arch and its derivatives<br>
-		<span class="desc">Important things to know when using Arch and its derivatives</span></p></a>
-	<footer><h6>Hosted by <a href="https://pages.github.com">
-		GitHub Pages.</a> A link to my GitHub repository is in the top navigation bar.</h6></footer>
+		<p>Why You Should Consider Linux: Pros and cons of Linux<br><span class="desc">Why I use Linux</span></p>
+	</a>
+	<a href="arch-beginners-guide.html" class="links"><img src="https://www.archlinux.org//static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="Arch Linux logo" class="limg" style="padding-bottom: 10px;">
+		<p>Beginner's guide to Arch and its derivatives<br>
+			<span class="desc">Important things to know when using Arch and its derivatives</span></p>
+	</a>
+	<footer>
+		<h6>Hosted by <a href="https://pages.github.com">
+				GitHub Pages.</a> A link to my GitHub repository is in the top navigation bar.</h6>
+	</footer>
 </body>
+
 </html>

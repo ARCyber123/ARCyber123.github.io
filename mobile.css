@@ -8,6 +8,7 @@
     margin-left: -8px;
     box-shadow: 0px 3px 3px gray;
 }
+
 .topnav a {
     float: right;
     color: #f2f2f2;
@@ -18,27 +19,33 @@
     padding-top: 15px;
     font-size: 35px;
 }
+
 .topnav a:hover {
     color: orange;
 }
+
 .topnav h1 {
     margin-top: -6px;
     color: white;
     margin-left: 3px;
 }
+
 h1 {
-    color:rgb(194, 6, 6);
+    color: rgb(194, 6, 6);
 }
+
 body {
-    font-family:'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: xx-large;
 }
+
 img {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 footer {
     color: gray;
     margin-top: 70px;

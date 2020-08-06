@@ -1,4 +1,4 @@
 # ARTech-7.github.io
-Technology articles website.  
-Made from scratch with highly readable code.  
+Technology articles website that simplifies tech concepts.  
+Made from scratch with readable code.  
 No website builders involved!

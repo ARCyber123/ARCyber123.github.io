@@ -3,7 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="ARTech - a website that simplifies tech with articles explaining technology topics">
+	<meta name="description"
+		content="ARTech - a website that simplifies tech with articles explaining technology topics">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -15,6 +16,7 @@
 		if (screen.width <= 699) {
 			document.location = "mobile/";
 		}
+		console.log('Hey there, programmer! If you have a GitHub account, you can open up an issue for feature requests/bugs at https://github.com/ARTech-7/ARTech-7.github.io/issues/new/choose and choose the "Feature request" template for a feature request, or open a blank issue for bug reports, etc.');
 	</script>
 	<title>ARTech</title>
 	<style>
@@ -26,6 +28,7 @@
 			margin-top: -14px;
 			margin-left: -8px;
 			box-shadow: 0px 2px 2px gray;
+			z-index: 4;
 		}
 
 		.topnav a {
@@ -37,8 +40,12 @@
 			margin-right: 3px;
 			margin-left: 10px;
 			padding-top: 9px;
+			-o-transition: .6s;
+			-ms-transition: .6s;
+			-moz-transition: .6s;
+			-webkit-transition: .6s;
+			transition: .6s;
 		}
-
 		.topnav a:hover {
 			color: orange;
 		}
@@ -50,7 +57,6 @@
 		}
 
 		h1 {
-			font-weight: bold;
 			color: rgb(194, 6, 6);
 		}
 
@@ -82,6 +88,28 @@
 			color: gray;
 			font-weight: normal;
 		}
+		video {
+			z-index: 1;
+			padding-top: 20px;
+			width: 101.2%;
+			margin-left: -7.7px;
+		}
+		.main-text {
+			background-color: transparent;
+			position: absolute;
+			z-index: 2;
+			margin-top: -500px;
+			margin-left: 23%;
+			text-align: center;
+			color: white;
+		}
+		.main-text-2 {
+			position: absolute;
+			margin-top: -390px;
+			color: white;
+			margin-left: 21%;
+			z-index: 2;
+		}
 	</style>
 </head>
 
@@ -90,16 +118,17 @@
 		<a href="https://github.com/ARTech-7/ARTech-7.github.io" target="_blank">GitHub</a>
 		<h1 style="padding-left: 2px; padding-top: 6px;">ARTech</h1>
 	</div>
-	<video style="padding-top: 20px; width: 100%;" muted autoplay playsinline>
-		<source src="logo.mp4">
+	<video muted autoplay playsinline loop>
+		<source src="circuit.mp4">
 	</video>
-	<p>Welcome to ARTech!<br>
-		This website will have articles about technology.</p>
-	<p>Some topics that we'll focus on are: Linux, Open-source Software and Web Development.</p>
+	<h1 class="main-text">Welcome to ARTech!<br>
+		This website will have articles about technology.</h1>
+	<h3 class="main-text-2">Some topics that we'll focus on are: Linux, Open-source Software and Web Development.</h3>
 	<h2>Web Development</h2>
 	<a href="hosting-on-github.html" class="links"><img src="apple-touch-icon.png" class="limg" alt="ARTech logo">
 		<p>Hosting Your Own Website:
-			Learn how to host your website with HTML & CSS using GitHub Pages<br><span class="desc">How I made this website</span>
+			Learn how to host your website with HTML & CSS using GitHub Pages<br><span class="desc">How I made this
+				website</span>
 		</p>
 	</a>
 	<h2>Linux</h2>
@@ -107,13 +136,18 @@
 		Linux logo">
 		<p>Why You Should Consider Linux: Pros and cons of Linux<br><span class="desc">Why I use Linux</span></p>
 	</a>
-	<a href="arch-beginners-guide.html" class="links"><img src="images/arch-logo.png" alt="Arch Linux logo" class="limg" style="padding-bottom: 10px;">
+	<a href="arch-beginners-guide.html" class="links"><img src="images/arch-logo.png" alt="Arch Linux logo" class="limg"
+			style="padding-bottom: 10px;">
 		<p>Beginner's guide to Arch and its derivatives<br>
 			<span class="desc">Important things to know when using Arch and its derivatives</span></p>
 	</a>
 	<footer>
-		<h6>Hosted by <a href="https://pages.github.com">GitHub Pages.</a> A link to my GitHub repository is in the top navigation bar.</h6>
+		<h6>Hosted by <a href="https://pages.github.com">GitHub Pages.</a> A link to my GitHub repository is in the top
+			navigation bar.</h6>
 	</footer>
+	<script>
+		
+	</script>
 </body>
 
 </html>

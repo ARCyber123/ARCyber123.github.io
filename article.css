@@ -22,10 +22,10 @@ body {
     margin-left: 10px;
     margin-top: 5px;
     -o-transition: .6s;
-	-ms-transition: .6s;
-	-moz-transition: .6s;
-	-webkit-transition: .6s;
-	transition: .6s;
+    -ms-transition: .6s;
+    -moz-transition: .6s;
+    -webkit-transition: .6s;
+    transition: .6s;
 }
 
 .topnav a:hover {

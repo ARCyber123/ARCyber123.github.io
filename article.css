@@ -42,18 +42,10 @@ h1 {
 }
 
 img {
-    min-width: 80vw;
+    width: 80vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.w50 {
-    width: 50%;
-}
-
-.w60 {
-    width: 60%;
 }
 
 code {

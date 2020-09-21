@@ -42,7 +42,7 @@ h1 {
     color: rgb(194, 6, 6);
 }
 
-img {
+img.image {
     width: 80vw;
     display: block;
     margin-left: auto;

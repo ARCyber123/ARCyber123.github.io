@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="article.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="loader.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="manifest" href="site.webmanifest">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
@@ -58,6 +60,17 @@
     <h3>The only disadvantage (in my opinion)</h3>
     <p>The only problem about Linux (in my opinion!) is the <strong>compatibility.</strong> This means that some Windows
         files won't work in Linux, and also that Linux doesn't have many applications.</p>
+    <!--Loader-->
+	<div class="loader-container">
+		<div class="loader"></div>
+	</div>
+	<script>
+		console.log('Hey there, programmer! If you have a GitHub account, you can open up an issue for feature requests/bugs at https://github.com/alinuxuser1/DeveloHub/issues/new/choose and choose the "Feature request" template for a feature request, or open a blank issue for bug reports, etc.');
+
+		$(window).on("load",function(){
+			$(".loader-container").fadeOut("slow");
+		});
+	</script>
 </body>
 
 </html>

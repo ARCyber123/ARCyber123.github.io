@@ -18,6 +18,17 @@
 </head>
 
 <body>
+    <!--Loader-->
+	<div class="loader-container">
+		<div class="loader"></div>
+	</div>
+	<script>
+		console.log('Hey there, programmer! If you have a GitHub account, you can open up an issue for feature requests/bugs at https://github.com/alinuxuser1/DeveloHub/issues/new/choose and choose the "Feature request" template for a feature request, or open a blank issue for bug reports, etc.');
+
+		$(window).on("load",function(){
+			$(".loader-container").fadeOut("slow");
+		});
+	</script>
     <!--Top Navigation Bar-->
     <div class="topnav">
         <a href="https://github.com/alinuxuser1/DeveloHub" target="_blank" title="GitHub repository for this website"><img src="https://img.shields.io/github/stars/alinuxuser1/develohub?label=Star&style=social" alt="Star On GitHub"></a>
@@ -60,17 +71,6 @@
     <h3>The only disadvantage (in my opinion)</h3>
     <p>The only problem about Linux (in my opinion!) is the <strong>compatibility.</strong> This means that some Windows
         files won't work in Linux, and also that Linux doesn't have many applications.</p>
-    <!--Loader-->
-	<div class="loader-container">
-		<div class="loader"></div>
-	</div>
-	<script>
-		console.log('Hey there, programmer! If you have a GitHub account, you can open up an issue for feature requests/bugs at https://github.com/alinuxuser1/DeveloHub/issues/new/choose and choose the "Feature request" template for a feature request, or open a blank issue for bug reports, etc.');
-
-		$(window).on("load",function(){
-			$(".loader-container").fadeOut("slow");
-		});
-	</script>
 </body>
 
 </html>

@@ -87,6 +87,17 @@
 </head>
 
 <body>
+	<!--Loader-->
+	<div class="loader-container">
+		<div class="loader"></div>
+	</div>
+	<script>
+		console.log('Hey there, programmer! If you have a GitHub account, you can open up an issue for feature requests/bugs at https://github.com/alinuxuser1/DeveloHub/issues/new/choose and choose the "Feature request" template for a feature request, or open a blank issue for bug reports, etc.');
+
+		$(window).on("load",function(){
+			$(".loader-container").fadeOut("slow");
+		});
+	</script>
 	<!--Top Navigation Bar-->
 	<div class="topnav">
 		<a href="https://github.com/alinuxuser1/DeveloHub" target="_blank" title="GitHub repository for this website"><img src="https://img.shields.io/github/stars/alinuxuser1/develohub?label=Star&style=social" alt="Star On GitHub"></a>
@@ -119,17 +130,7 @@
 		<!--Disclaimer-->
 		<h6>Disclaimer: The purpose of this website is to educate beginners. The contents/images of this site have been sourced from public domains. I do not claim any responsibility towards the authenticity of information/data/images provided herein. They can be subject to changes from time to time as per the respective websites. You can send an email to "contact@develohub.ga".</h6>
 	</footer>
-	<!--Loader-->
-	<div class="loader-container">
-		<div class="loader"></div>
-	</div>
-	<script>
-		console.log('Hey there, programmer! If you have a GitHub account, you can open up an issue for feature requests/bugs at https://github.com/alinuxuser1/DeveloHub/issues/new/choose and choose the "Feature request" template for a feature request, or open a blank issue for bug reports, etc.');
-
-		$(window).on("load",function(){
-			$(".loader-container").fadeOut("slow");
-		});
-	</script>
+	
 </body>
 
 </html>

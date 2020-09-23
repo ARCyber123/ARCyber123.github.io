@@ -42,6 +42,12 @@ body {
     margin-left: 2px;
 }
 
+.topnav #develo {
+    color: orange;
+    font-family: 'Courier Prime';
+    font-size: larger;
+}
+
 h1 {
     color: rgb(194, 6, 6);
 }
@@ -56,4 +62,5 @@ img.image {
 code {
     background-color: lightgray;
     font-size: large;
+    font-family: 'ourier Prime', monospace;
 }

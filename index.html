@@ -7,7 +7,8 @@
 		content="DeveloHub - a website that simplifies tech with articles explaining technology topics">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="loader.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime" type="text/css">
+	<link rel="stylesheet" href="loader.css" type="text/css">
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -52,6 +53,11 @@
 			margin-top: -9px;
 			color: white;
 			margin-left: 2px;
+		}
+		.topnav #develo {
+			color: orange;
+			font-family: 'Courier Prime', monospace;
+			font-size: larger;
 		}
 		h1 {
 			color: rgb(194, 6, 6);
@@ -106,7 +112,7 @@
 	<!--Top Navigation Bar-->
 	<div class="topnav">
 		<a href="https://github.com/alinuxuser1/DeveloHub" target="_blank" title="GitHub repository for this website"><img src="https://img.shields.io/github/stars/alinuxuser1/develohub?label=Star&style=social" alt="Star On GitHub"></a>
-		<h1 style="padding-left: 2px; padding-top: 6px;"><a href="/" class="fas fa-home"></a> DeveloHub</h1>
+		<h1 style="padding-left: 2px; padding-top: 6px;"><a href="/" class="fas fa-home"></a><span id="develo"> Develo</span>Hub</h1>
 	</div>
 	<video muted autoplay playsinline>
 		<source src="logo.mp4">

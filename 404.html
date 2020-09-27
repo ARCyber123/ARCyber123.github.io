@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="article.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="loader.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/53ec121b0c.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>404 Not Found | DeveloHub</title>
+</head>
+
+<body>
+    <!--Loader-->
+	<div class="loader-container">
+		<div class="loader"></div>
+	</div>
+	<script>
+		console.log('Hey there, programmer! If you have a GitHub account, you can open up an issue for feature requests/bugs at https://github.com/alinuxuser1/DeveloHub/issues/new/choose and choose the "Feature request" template for a feature request, or open a blank issue for bug reports, etc.');
+
+		$(window).on("load",function(){
+			$(".loader-container").fadeOut("slow");
+		});
+	</script>
+    <!--Top Navigation Bar-->
+    <div class="topnav">
+        <a href="https://github.com/alinuxuser1/DeveloHub" target="_blank" title="GitHub repository for this website"><img src="https://img.shields.io/github/stars/alinuxuser1/develohub?label=Star&style=social" alt="Star On GitHub"></a>
+        <h1 style="padding-left: 2px;"><a href="/" class="fas fa-home"></a><span id="develo"> Develo</span>Hub</h1>
+    </div>
+    <h1 style="text-align: center; padding-top: 30px;">404 error - Not Found</h1>
+    <p style="text-align: center;">Sorry, the file you were looking for was not found on this website. If you think this is a problem with this website, please <a href="https://github.com/alinuxuser1/DeveloHub/issues/new" target="_blank">open an issue on GitHub.</a></p>
+</body>
+
+</html>

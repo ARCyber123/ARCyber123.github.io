@@ -44,7 +44,7 @@ body {
 
 .topnav #develo {
     color: orange;
-    font-family: 'Courier Prime';
+    font-family: 'CourierPrimeCodeRegular';
     font-size: larger;
 }
 
@@ -62,5 +62,5 @@ img.image {
 code {
     background-color: lightgray;
     font-size: large;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'CourierPrimeCodeRegular', monospace;
 }

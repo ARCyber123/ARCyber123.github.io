@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/loader.css" type="text/css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/courier-prime" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,7 +33,7 @@
 		});
 	</script>
     <!--Top Navigation Bar-->
-    <div class="topnav">
+    <div class="topnav" data-aos="fade-down">
         <a href="https://github.com/alinuxuser1/DeveloHub" target="_blank" title="GitHub repository for this website"><img src="https://img.shields.io/github/stars/alinuxuser1/develohub?label=Star&style=social" alt="Star On GitHub"></a>
         <h1 style="padding-left: 2px;"><a href="/" class="fas fa-home"></a><span id="develo"> Develo</span>Hub</h1>
     </div>
@@ -72,7 +73,7 @@
             for in the repositories, it will likely be in the <a href="https://aur.archlinux.org">Arch User Repository
             </a>.</p>
         <h3>Building packages from Tarballs</h3>
-        <p> You can also build packages by downloading a tar.gz file from the Internet. Once it is downloaded, extract
+        <p>You can also build packages by downloading a tar.gz file from the Internet. Once it is downloaded, extract
             the archive. In case you didn't know, these files are compressed archives just like .zip files. Open the
             extracted folder. You will see a file called "PKGBUILD". If you don't, you probably downloaded the source
             code of the package instead. Now, right click in the empty part of the folder, and click "Open in terminal".
@@ -82,6 +83,10 @@
             (don't forget to replace it with the location of the folder, example
             <code>/home/user/Downloads/package-folder
             </code>). Now type the command: <code>makepkg -si</code> and your package will install.</p>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

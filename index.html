@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/courier-prime" type="text/css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css">
 	<link rel="stylesheet" href="/loader.css" type="text/css">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -111,7 +112,7 @@
 		});
 	</script>
 	<!--Top Navigation Bar-->
-	<div class="topnav">
+	<div class="topnav" data-aos="fade-down">
 		<a href="https://github.com/alinuxuser1/DeveloHub" target="_blank"
 			title="GitHub repository for this website"><img
 				src="https://img.shields.io/github/stars/alinuxuser1/develohub?label=Star&style=social"
@@ -126,18 +127,18 @@
 		This website will have articles about technology.</p>
 	<p>Some topics that we'll focus on are: Linux, Open-source Software and Web Development.</p>
 	<h2>Web Development</h2>
-	<a href="/hosting-on-github.html" class="links"><img src="/apple-touch-icon.png" class="limg" alt="DeveloHub logo">
+	<a href="/hosting-on-github.html" class="links" data-aos="fade-right" data-aos-easing="ease-out-cubic"><img src="/apple-touch-icon.png" class="limg" alt="DeveloHub logo">
 		<p>Learn how to host your website with HTML & CSS using GitHub Pages<br><span class="desc">How I made this
 				website</span>
 		</p>
 	</a>
 	<h2>Linux</h2>
-	<a href="/consider-linux.html" class="links"><img src="/images/linux-logo.png" class="limg" alt="
+	<a href="/consider-linux.html" class="links" data-aos="fade-right" data-aos-easing="ease-out-cubic"><img src="/images/linux-logo.png" class="limg" alt="
 		Linux logo">
 		<p>Pros and cons of Linux<br><span class="desc">Why I use Linux</span></p>
 	</a>
-	<a href="/arch-beginners-guide.html" class="links"><img src="/images/arch-logo.png" alt="Arch Linux logo" class="limg"
-			style="padding-bottom: 10px;">
+	<a href="/arch-beginners-guide.html" class="links" data-aos="fade-right" data-aos-easing="ease-out-cubic"><img src="/images/arch-logo.png" alt="Arch Linux logo"
+			class="limg" style="padding-bottom: 10px;">
 		<p>Beginner's guide to Arch and its derivatives<br>
 			<span class="desc">Important things to know when using Arch and its derivatives</span></p>
 	</a>
@@ -148,7 +149,10 @@
 			information/data/images provided herein. They can be subject to changes from time to time as per the
 			respective websites. You can send an email to "contact@develohub.ga".</h6>
 	</footer>
-
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>

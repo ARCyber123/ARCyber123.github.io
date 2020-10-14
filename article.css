@@ -2,7 +2,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.topnav {
+div.topnav {
     background-color: black;
     position: fixed;
     width: 100%;
@@ -13,7 +13,7 @@ body {
     box-shadow: 0px 2px 2px gray;
 }
 
-.topnav a {
+div.topnav a {
     float: right;
     color: #f2f2f2;
     text-align: right;
@@ -28,31 +28,35 @@ body {
     transition: .6s;
 }
 
-.topnav a.fas {
+div.topnav a.fas {
     float: left;
 }
 
-.topnav a:hover {
+div.topnav a:hover {
     color: orange;
 }
 
-.topnav h1 {
+div.topnav h1 {
     margin-top: -3px;
     color: white;
     margin-left: 2px;
 }
 
-.topnav #develo {
+div.topnav #develo {
     color: orange;
     font-family: 'CourierPrimeRegular';
     font-size: larger;
+}
+
+div.topnav img.github-star {
+    width: 7vw;
 }
 
 h1 {
     color: rgb(194, 6, 6);
 }
 
-img.image {
+img {
     width: 80vw;
     display: block;
     margin-left: auto;

@@ -21,11 +21,11 @@ div.topnav a {
     margin-right: 3px;
     margin-left: 10px;
     margin-top: 7px;
-    -o-transition: .6s;
-    -ms-transition: .6s;
-    -moz-transition: .6s;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 div.topnav a.fas {
@@ -33,7 +33,7 @@ div.topnav a.fas {
 }
 
 div.topnav a:hover {
-    color: orange;
+    color: #ff6601;
 }
 
 div.topnav h1 {
@@ -43,7 +43,7 @@ div.topnav h1 {
 }
 
 div.topnav #develo {
-    color: orange;
+    color: #ff6601;
     font-family: 'Courier Prime';
     font-size: larger;
 }

@@ -48,9 +48,11 @@ div.topnav #develo {
     font-size: larger;
 }
 
-div.topnav img.github-star {
+div.topnav a img.github-star {
     height: 20px;
     margin-top: 5px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 h1 {

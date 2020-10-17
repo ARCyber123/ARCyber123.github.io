@@ -49,7 +49,8 @@ div.topnav #develo {
 }
 
 div.topnav img.github-star {
-    width: 7vw;
+    height: 20px;
+    margin-top: 5px;
 }
 
 h1 {

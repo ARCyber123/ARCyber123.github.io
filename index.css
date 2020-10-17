@@ -1,0 +1,91 @@
+div.topnav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 2px 2px gray;
+}
+
+div.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 3px;
+    margin-left: 10px;
+    padding-top: 7px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+div.topnav a.fas {
+    float: left;
+}
+
+div.topnav a:hover {
+    color: #ff6601;
+}
+
+div.topnav h1 {
+    margin-top: -9px;
+    color: white;
+    margin-left: 2px;
+}
+
+div.topnav #develo {
+    color: #ff6601;
+    font-family: 'Courier Prime', monospace;
+    font-size: larger;
+}
+
+div.topnav img.github-star {
+    width: 7vw;
+}
+
+h1 {
+    color: rgb(194, 6, 6);
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.limg {
+    width: 100px;
+    float: left;
+    margin-right: 6px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.links {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+footer {
+    color: gray;
+    margin-top: 70px;
+}
+
+.desc {
+    color: gray;
+    font-weight: normal;
+}
+
+video {
+    padding-top: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

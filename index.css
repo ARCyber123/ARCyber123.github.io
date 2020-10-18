@@ -45,8 +45,13 @@ div.topnav #develo {
 }
 
 div.topnav img.github-star {
+<<<<<<< HEAD
     height: fit-content;
     width: fit-content;
+=======
+    height: 20px;
+    margin-top: 5px;
+>>>>>>> c84267d22849360d33804bdb6316fc2c860d289e
 }
 
 h1 {

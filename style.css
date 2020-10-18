@@ -54,7 +54,7 @@ h1 {
     color: rgb(194, 6, 6);
 }
 
-img:not(div.topnav a img) {
+img {
     width: 80vw;
     display: block;
     margin-left: auto;
@@ -64,5 +64,5 @@ img:not(div.topnav a img) {
 code {
     background-color: lightgray;
     font-size: large;
-    font-family: 'CourierPrimeRegular', monospace;
+    font-family: 'Courier Prime', monospace;
 }

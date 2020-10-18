@@ -48,23 +48,13 @@ div.topnav #develo {
     font-size: larger;
 }
 
-<<<<<<< HEAD
-div.topnav img.github-star {
-    height: fit-content;
-    width: fit-content;
-=======
-div.topnav a img.github-star {
-    height: 20px;
-    margin-top: 5px;
-    right: 0;
->>>>>>> c84267d22849360d33804bdb6316fc2c860d289e
-}
+
 
 h1 {
     color: rgb(194, 6, 6);
 }
 
-img {
+img:not(div.topnav a img) {
     width: 80vw;
     display: block;
     margin-left: auto;

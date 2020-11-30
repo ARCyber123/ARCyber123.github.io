@@ -5,4 +5,4 @@ DeveloHub is a website that simplifies tech with articles explaining technology 
 # No distractions
 We do not display any advertisements or recommendations, so that you can read our articles without any distractions. 
 # We respect your privacy
-We do not use any cookies or trackers on the website. Privacy is a right that everyone deserves.
+We do not use any cookies or trackers on the website. Privacy is something that everyone deserves.

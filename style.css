@@ -69,9 +69,15 @@ img {
 }
 
 code {
+	display: inline-block;
+    background-color: #000;
+	color: #fff;
+    font-size: large;
     font-family: 'Courier Prime', monospace;
 	border: 1px solid #000;
 	border-radius: 10px;
+	padding: 5px 2px;
+	margin: 5px 2px;
 }
 
 span.inline-code {

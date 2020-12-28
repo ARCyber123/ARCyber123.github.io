@@ -57,7 +57,6 @@ div.topnav #develo {
 }
 
 
-
 h1 {
     color: rgb(194, 6, 6);
 }
@@ -75,6 +74,8 @@ code {
     font-family: 'Courier Prime', monospace;
 	border: 1px solid lightgray;
 	border-radius: 10px;
+	padding: 5px 2px;
+	margin: 5px 2px;
 }
 
 kbd {
@@ -86,7 +87,7 @@ kbd {
 	text-align: justify;
 	white-space: nowrap;
 	overflow-x: auto;
-	background-color: #c2c2c2;
+	background-color: #d9d9d9;
 	color: #000;
 	box-shadow: inset 0 -3px 0 0 #8f8f8f;
 	margin: 4px;

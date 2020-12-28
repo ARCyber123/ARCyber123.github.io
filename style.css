@@ -70,9 +70,10 @@ img {
 }
 
 code {
-    background-color: lightgray;
+    background-color: #000;
     font-size: large;
     font-family: 'Courier Prime', monospace;
+	padding: 25px 10px;
 }
 
 kbd {
@@ -84,7 +85,7 @@ kbd {
 	text-align: justify;
 	white-space: nowrap;
 	overflow-x: auto;
-	background-color: #d6d6d6;
+	background-color: #8f8f8f;
 	color: #000;
 	box-shadow: inset 0 -3px 0 0 #9c9c9c;
 	margin: 4px;

@@ -1,3 +1,8 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 140%;
+}
+
 div.topnav {
     background-color: black;
     position: fixed;
@@ -46,10 +51,6 @@ div.topnav #develo {
 
 h1 {
     color: rgb(194, 6, 6);
-}
-
-body {
-    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .thumbnails {

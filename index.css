@@ -2,6 +2,10 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+section.main-text {
+    line-height: 1.5;
+}
+
 div.topnav {
     background-color: black;
     position: fixed;

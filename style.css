@@ -2,8 +2,12 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+section.main-text {
+    line-height: 1.5;
+}
+
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 div.topnav {

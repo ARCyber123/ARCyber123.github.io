@@ -81,8 +81,8 @@ code {
 }
 
 span.inline-code {
-	font-family: 'Courier Prime', monospace;
-	background-color: lightgray;
+    font-family: 'Courier Prime', monospace;
+    background-color: lightgray;
 }
 
 kbd {

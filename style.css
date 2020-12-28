@@ -1,5 +1,6 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
+	scroll-behavior: smooth;
 }
 
 div.topnav {

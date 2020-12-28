@@ -69,6 +69,7 @@ img {
 }
 
 code {
+	display: inline-block;
     background-color: lightgray;
     font-size: large;
     font-family: 'Courier Prime', monospace;

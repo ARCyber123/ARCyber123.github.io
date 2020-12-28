@@ -70,12 +70,10 @@ img {
 }
 
 code {
-    background-color: #000;
+    background-color: lightgray;
     font-size: large;
     font-family: 'Courier Prime', monospace;
-	padding: 35px 20px;
-	color: #fff;
-	border: 1px solid #000;
+	border: 1px solid lightgray;
 	border-radius: 10px;
 }
 

@@ -1,5 +1,8 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+html {
 	scroll-behavior: smooth;
 }
 

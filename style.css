@@ -73,7 +73,8 @@ code {
     background-color: #000;
     font-size: large;
     font-family: 'Courier Prime', monospace;
-	padding: 25px 10px;
+	margin: 25px 10px;
+	color: #fff;
 }
 
 kbd {

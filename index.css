@@ -17,25 +17,6 @@ div.topnav {
     box-shadow: 0px 2px 2px gray;
 }
 
-div.topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: right;
-    text-decoration: none;
-    margin-right: 3px;
-    margin-left: 10px;
-    padding-top: 7px;
-    -o-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-div.topnav a.fas {
-    float: left;
-}
-
 div.topnav a:hover {
     color: #ff6601;
 }

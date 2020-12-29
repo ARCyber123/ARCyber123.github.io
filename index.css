@@ -22,6 +22,8 @@ div.topnav a:hover {
 }
 
 div.topnav a.fas {
+    color: white;
+    float: left;
     text-align: right;
     text-decoration: none;
     margin-right: 3px;

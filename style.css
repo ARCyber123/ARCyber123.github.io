@@ -70,10 +70,11 @@ img {
 
 code {
     display: inline-block;
-    background-color: lightgray;
+    background-color: black;
+    color: white;
     font-size: large;
     font-family: 'Courier Prime', monospace;
-    border: 1px solid lightgray ;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 5px 3px;
     margin: 5px 3px;

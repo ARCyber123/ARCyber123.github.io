@@ -60,6 +60,7 @@ h1 {
 
 .thumbnails {
     width: 100px;
+    margin-right: 2px;
     float: left;
     margin-right: 6px;
     padding-bottom: 25px;
@@ -67,7 +68,8 @@ h1 {
 }
 
 .links {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 110px 1fr;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -90,4 +92,22 @@ video {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+@media only screen and (max-width: 280px) {
+    div.topnav h1 {
+        font-size: x-large;
+    }
+    div.topnav {
+        height: 35px;
+    }
+    div.topnav a {
+        padding-top: 7px !important;
+    }
+    div.topnav h1 a.fab.fa-github {
+        padding-top: 4px !important;
+    }
+    video {
+        padding-top: 30px;
+    }
 }

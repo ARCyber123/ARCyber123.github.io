@@ -7,6 +7,8 @@ section.main-text {
 }
 
 div.topnav {
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     position: fixed;
     width: 100%;
@@ -17,10 +19,9 @@ div.topnav {
     box-shadow: 0px 2px 2px gray;
 }
 
-div.topnav a.fas {
+div.topnav a {
     color: white;
     float: left;
-    text-align: right;
     text-decoration: none;
     margin-right: 3px;
     margin-left: 10px;
@@ -46,6 +47,10 @@ div.topnav #develo {
     color: #ff6601;
     font-family: 'Courier Prime', monospace;
     font-size: larger;
+}
+
+div.topnav div.topnav-right {
+    float: right;
 }
 
 h1 {

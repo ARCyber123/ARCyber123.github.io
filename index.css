@@ -94,7 +94,7 @@ video {
     width: 70%;
 }
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 300px) {
     div.topnav h1 {
         font-size: x-large;
     }

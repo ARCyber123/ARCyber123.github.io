@@ -21,7 +21,7 @@ div.topnav {
     left: 0;
     right: 0;
     box-shadow: 0px 2px 2px gray;
-    z-index: 99;
+    z-index: 98;
 }
 
 div.topnav a {

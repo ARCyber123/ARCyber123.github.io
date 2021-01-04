@@ -107,7 +107,7 @@ div#develo-animation {
     text-shadow: #ff6601 0px 5px 10px;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 487px){
     h1#animation {
         font-size: 50pt;
     }

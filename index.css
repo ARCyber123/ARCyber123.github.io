@@ -94,6 +94,28 @@ video {
     width: 70%;
 }
 
+h1#animation {
+    text-align: center;
+    font-size: 80pt;
+}
+
+div#develo-animation {
+    margin-top: 45px;
+    color: #ff6601;
+    font-family: 'Courier Prime';
+    font-size: 100pt;
+    text-shadow: #ff6601 0px 5px 10px;
+}
+
+@media only screen and (max-width: 400px){
+    h1#animation {
+        font-size: 50pt;
+    }
+    div#develo-animation {
+        font-size: 70pt;
+    }
+}
+
 @media only screen and (max-width: 300px) {
     div.topnav h1 {
         font-size: x-large;
@@ -109,5 +131,11 @@ video {
     }
     video {
         padding-top: 30px;
+    }
+    h1#animation {
+        font-size: 40pt;
+    }
+    div#develo-animation {
+        font-size: 50pt;
     }
 }

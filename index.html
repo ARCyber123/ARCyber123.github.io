@@ -29,14 +29,13 @@
 		<div class="loader"></div>
 	</div>
 	<!--Top Navigation Bar-->
-	<div class="topnav" data-aos="fade-down" data-aos-delay="400">
+	<div class="topnav" data-aos="fade-down" data-aos-delay="200">
 		<h1 style="padding-top: 6px;"><a href="/" class="fas fa-home" style="padding-top: 9px;"></a><span id="develo">
 				Develo</span>Hub</h1>
 		<div class="topnav-right"><h1 style="padding-top: 9px; padding-right: 3px;"><a href="https://github.com/poweredbylinux/develohub" class="fab fa-github" target="_blank"></a></h1></div>
 	</div>
-	<video muted autoplay playsinline>
-		<source src="/logo.mp4">
-	</video>
+	<!--Animated Logo-->
+	<h1 id="animation"><div id="develo-animation" data-aos="fade-zoom-in" data-aos-duration="2300" data-aos-delay="500">Develo</div><div style="color: black; text-shadow: #000000 0px 3px 5px;" data-aos="fade-down" data-aos-delay="500" data-aos-duration="2300">Hub</div></h1>
 	<section class="main-text"><p>Welcome to DeveloHub!<br>
 		This website will have articles about technology.</p>
 	<p>Some topics that we'll focus on are: Linux, Open-source Software and Web Development.</p></section>
@@ -66,12 +65,7 @@
 			respective websites. To contact us, you can send an email to <a href="mailto:contact@develohub.ga">contact@develohub.ga</a></h6></section>
 	</footer>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		$(window).on("load", function () {
-			$(".loader-container").fadeOut("slow");
-		});
-		AOS.init();
-	</script>
+	<script src="/script.js"></script>
 </body>
 
 </html>

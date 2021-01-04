@@ -109,10 +109,11 @@ div#develo-animation {
 
 @media only screen and (max-width: 487px){
     h1#animation {
-        font-size: 50pt;
+        font-size: 45pt;
     }
     div#develo-animation {
-        font-size: 70pt;
+        font-size: 60pt;
+        text-shadow: #ff6601 0px 3px 8px;
     }
 }
 
@@ -137,5 +138,6 @@ div#develo-animation {
     }
     div#develo-animation {
         font-size: 50pt;
+        text-shadow: #ff6601 0px 1px 6px;
     }
 }

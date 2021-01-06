@@ -48,7 +48,6 @@ div.topnav i {
     color: white;
     float: left;
     text-decoration: none;
-    margin-right: 3px;
     margin-left: 10px;
     padding-top: 7px;
     -o-transition: 0.3s;
@@ -144,7 +143,7 @@ div#develo-animation {
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 343px) {
     div.topnav h1 {
         font-size: x-large;
     }

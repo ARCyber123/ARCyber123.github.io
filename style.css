@@ -1,5 +1,28 @@
+:root {
+    --clr-light: white;
+    --clr-dark: #16161a;
+
+    --foreground: black;
+    --background: var(--clr-light);
+}
+
+.darkmode {
+    --clr-light: white;
+    --clr-dark: #16161a;
+
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
 }
 
 section.main-text {
@@ -24,14 +47,15 @@ div.topnav {
     z-index: 98;
 }
 
-div.topnav a {
+div.topnav a,
+div.topnav i {
     float: left;
     color: white;
     text-align: right;
     text-decoration: none;
     margin-right: 3px;
     margin-left: 10px;
-    margin-top: 7px;
+    margin-top: 8px;
     -o-transition: 0.3s;
     -ms-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -39,7 +63,8 @@ div.topnav a {
     transition: 0.3s;
 }
 
-div.topnav a:hover {
+div.topnav a:hover,
+div.topnav i:hover {
     color: #ff6601;
 }
 
@@ -49,6 +74,14 @@ div.topnav h1 {
     margin-left: 2px;
 }
 
+div.topnav .topnav-right {
+    float: right;
+}
+
+div.topnav #dark-mode-toggle {
+    cursor: pointer;
+}
+
 div.topnav #develo {
     color: #ff6601;
     font-family: 'Courier Prime';
@@ -56,7 +89,8 @@ div.topnav #develo {
 }
 
 h1 {
-    color: rgb(194, 6, 6);
+    margin-top: 30px;
+    text-align: center;
 }
 
 img {

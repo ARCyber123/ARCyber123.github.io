@@ -1,5 +1,28 @@
+:root {
+    --clr-light: white;
+    --clr-dark: #16161a;
+
+    --foreground: black;
+    --background: var(--clr-light);
+}
+
+.darkmode {
+    --clr-light: white;
+    --clr-dark: #16161a;
+
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
 }
 
 section.main-text {
@@ -20,7 +43,8 @@ div.topnav {
     z-index: 98;
 }
 
-div.topnav a {
+div.topnav a,
+div.topnav i {
     color: white;
     float: left;
     text-decoration: none;
@@ -34,7 +58,8 @@ div.topnav a {
     transition: 0.3s;
 }
 
-div.topnav a:hover {
+div.topnav a:hover,
+div.topnav i:hover {
     color: #ff6601;
 }
 
@@ -54,8 +79,9 @@ div.topnav div.topnav-right {
     float: right;
 }
 
-h1 {
-    color: rgb(194, 6, 6);
+div.topnav #dark-mode-toggle {
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 .thumbnails {
@@ -74,6 +100,7 @@ h1 {
     color: black;
     font-weight: bold;
     width: 100%;
+    color: var(--foreground);
 }
 
 footer {
@@ -102,7 +129,7 @@ h1#animation {
 div#develo-animation {
     margin-top: 45px;
     color: #ff6601;
-    font-family: 'Courier Prime';
+    font-family: 'Courier Prime', monospace;
     font-size: 100pt;
     text-shadow: #ff6601 0px 5px 10px;
 }

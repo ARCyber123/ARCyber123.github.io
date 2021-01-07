@@ -1,6 +1,5 @@
 :root {
     --clr-light: white;
-    --clr-dark: #16161a;
 
     --foreground: black;
     --background: var(--clr-light);
@@ -8,7 +7,7 @@
 
 .darkmode {
     --clr-light: white;
-    --clr-dark: #16161a;
+    --clr-dark: #2b2b33;
 
     --foreground: var(--clr-light);
     --background: var(--clr-dark);

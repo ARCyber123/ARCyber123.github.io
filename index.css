@@ -96,12 +96,12 @@ div.topnav #dark-mode-toggle {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    width: 100%;
     color: var(--foreground);
     margin-bottom: 25px;
     border: 1px solid var(--foreground);
     border-radius: 10px;
-    padding: 0px 3px;
+    margin: 8px 10px;
+    padding: 0px 5px;
 }
 
 .links:hover {

@@ -1,5 +1,7 @@
 :root {
     --clr-light: white;
+    --link-hover-colour: #e7e7e7;
+    --link-colour: blue;
 
     --foreground: black;
     --background: var(--clr-light);
@@ -8,6 +10,8 @@
 .darkmode {
     --clr-light: white;
     --clr-dark: #2b2b33;
+    --link-hover-colour: #444444;
+    --link-colour: #0199ff;
 
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
@@ -105,7 +109,7 @@ div.topnav #dark-mode-toggle {
 }
 
 .links:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--link-hover-colour);
 }
 
 footer {
@@ -136,7 +140,7 @@ div#develo-animation {
     color: #ff6601;
     font-family: 'Courier Prime', monospace;
     font-size: 100pt;
-    text-shadow: #ff6601 0px 5px 10px;
+    text-shadow: #ff6601 0px 2px 3px;
 }
 
 @media only screen and (max-width: 487px){
@@ -145,8 +149,11 @@ div#develo-animation {
     }
     div#develo-animation {
         font-size: 60pt;
-        text-shadow: #ff6601 0px 3px 8px;
     }
+}
+
+a {
+    color: var(--link-colour);
 }
 
 @media only screen and (max-width: 343px) {
@@ -170,6 +177,5 @@ div#develo-animation {
     }
     div#develo-animation {
         font-size: 50pt;
-        text-shadow: #ff6601 0px 1px 6px;
     }
 }

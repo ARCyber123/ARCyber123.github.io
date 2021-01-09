@@ -28,7 +28,7 @@ body {
     transition: 0.8s;
 }
 
-section.main-text {
+p {
     line-height: 1.7;
 }
 

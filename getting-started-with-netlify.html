@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="description" content="Learn how to deploy a website with Netlify, a powerful, free way to publish a website from a GitHub repository.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Preconnect-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://ka-f.fontawesome.com">
+	<link rel="preconnect" href="https://kit.fontawesome.com">
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="/style.css" type="text/css">
+	<link rel="stylesheet" href="/loader.css" type="text/css">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime" type="text/css">
+	<!--Libraries-->
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<!--Font Awesome icon kit-->
+	<script src="https://kit.fontawesome.com/53ec121b0c.js" crossorigin="anonymous"></script>
+	<!--Icons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ff6601">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#ff6601">
+	<meta name="theme-color" content="#ff6601">
+    <title>Getting Started with Netlify | DeveloHub</title>
+</head>
+<body>
+	<!--Loader-->
+	<div class="loader-container" style="background-color: var(--background);">
+		<div class="loader"></div>
+	</div>
+	<!--Top Navigation Bar-->
+	<div class="topnav" data-aos="fade-down" data-aos-delay="200">
+		<h1 style="padding-left: 2px;"><a href="/" class="fas fa-home"></a><span id="develo"> Develo</span>Hub</h1>
+		<div class="topnav-right"><h1 style="padding-right: 3px;"><a href="https://github.com/poweredbylinux/develohub" class="fab fa-github" target="_blank"></a><span id="dark-mode-toggle" title="Toggle dark theme"><i class="fas fa-moon"></i></span></h1></div>
+	</div>
+	<h1>Getting Started with Netlify</h1>
+	<p>GitHub Pages is a simple and popular service by GitHub which publishes a website from your GitHub repository but Netlify provides much more control and features. Netlify is more powerful than GitHub Pages because it lets you losslessly compress images, bundle and minify CSS and JavaScript, manage DNS and much more, all for free. <a href="/deploy-a-website-with-github-pages.html">Here is our article</a> showing you how to deploy a website with GitHub Pages, if you would like to see that.</p>
+	<p>Here, you will learn how to deploy a website with Netlify, a very powerful way to publish a website from a Git repository.</p>
+	<h2>1. Create an account</h2>
+	<p>To start using Netlify, you'll first need to create an account. <a href="https://app.netlify.com/signup" target="_blank">Click here to create a Netlify account.</a></p>
+	<img src="/images/netlify-signup.png" alt="Create a Netlify account">
+	<p>You will see this screen when you click the link. If you have a GitHub, GitLab or Bitbucket account, you can use one of them to sign up for Netlify. If you don't have any of these accounts or don't want to use one of them, you can use your email to sign up.<br>
+	Once you sign up, you may need to verify your email, so check your email inbox, open the verification email and click the verification link.<br>
+	Once you have verified your email, you will see a form asking for your name and what kind of website you want to build. You can fill them if you want to, or click the skip button at the bottom to skip these steps.<br>
+	After doing these, you will now see the Netlify dashboard with a modal dialog with a quick-start guide.</p>
+	<img src="/images/netlify-quickstart.png" alt="Netlify quick-start modal">
+	<h2>2. Create a new site</h2>
+	<p>Now, you are ready to publish your site.</p>
+	<p>In this section of the Netlify dashboard, you can create a new site.</p>
+	<img src="/images/netlify-sites.png" alt="Netlify sites section">
+	<p>To create a new site with Git, click the "New site from Git" button. Netlify also has the option to create a site without Git, where you can make a folder of your site and drag-and-drop it on the area provided.</p>
+	<img src="/images/netlify-new-site.png" alt="Create a new site on Netlify">
+	<p>This is what you'll see when you click "New site from Git". Here you can choose which Git provider to use for your site. You need to choose the provider which is hosting your website repository. For example, if your site is on GitHub, click the GitHub button.<br>
+	Once you choose the provider you need, you'll see a popup asking you to log in with the account for your Git provider. Once you log in and authorize Netlify, you'll see a list of your repositories.</p>
+	<img src="/images/netlify-repo-list.png" alt="List of repositories">
+	<p>Choose your site's repository from the list, and then you'll see a screen like this:</p>
+	<img src="/images/netlify-new-site-options.png" alt="Options for new Netlify site">
+	<p>Select the branch that your site deploys from. If you use any static site generator or build tool, type its build command too. Once everything is done, click the "Deploy site" button at the bottom.</p>
+	<p>Now, your site will deploy in a few seconds! But first, we need to configure it a little.</p>
+	<h2>3. Configure your site</h2>
+	<img src="/images/netlify-site-created.png" alt="New Netlify site created">
+	<p>The site name needs to be changed, because by default, Netlify just uses a few random words and numbers for your site name.<br>
+	Click the <strong>Domain settings</strong> button at the top to change the site's name.</p>
+	<img src="/images/netlify-site-name.png" alt="Changing your Netlify site's name">
+	<p>Click "Options" and click "Change site name". Now you can change your site's name to whatever you like.</p>
+	<h2>Your site is now ready to go!</h2>
+	<p>Your site will now be accessible at <span class="inline-code"><var>yoursitename</var>.netlify.app</span> where "yoursitename" is the name you chose in step 3. If you want to use a custom domain, you can add one in the same Domain settings area in Netlify by clicking "Add custom domain". Follow Netlify's instructions to use the domain on your site.</p>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="/script.js"></script>
+</body>
+</html>

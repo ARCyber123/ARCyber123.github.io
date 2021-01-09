@@ -1,5 +1,6 @@
 :root {
     --clr-light: white;
+    --link-colour: blue;
 
     --foreground: black;
     --background: var(--clr-light);
@@ -8,9 +9,14 @@
 .darkmode {
     --clr-light: white;
     --clr-dark: #2b2b33;
+    --link-colour: #0199ff;
 
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
+}
+
+a {
+    color: var(--link-colour);
 }
 
 body {
@@ -88,7 +94,7 @@ div.topnav #develo {
 }
 
 h1 {
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 

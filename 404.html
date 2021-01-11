@@ -28,6 +28,90 @@
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#ff6601">
     <meta name="theme-color" content="#ff6601">
+    <style>
+        * {
+            text-align: center;
+        }
+        #glitch {
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+
+            animation: glitch 500ms infinite;
+        }
+        @keyframes glitch {
+            0% {
+                text-shadow: 
+                0.025em 0 0 rgba(255, 0, 0, .75),
+                -0.025em -0.0125em 0 rgba(0, 255, 0, .75),
+                -0.0125em 0.025em 0 rgba(0, 0, 255, .75);
+            font-size: 10em;
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+            }
+            14% {
+                text-shadow: 
+                0.025em 0 0 rgba(255, 0, 0, .75),
+                -0.025em -0.0125em 0 rgba(0, 255, 0, .75),
+                -0.0125em 0.025em 0 rgba(0, 0, 255, .75);
+            font-size: 10em;
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+            }
+            15% {
+                text-shadow: 
+                -0.025em -0.0125em 0 rgba(255, 0, 0, .75),
+                0.0125em 0.0125em 0 rgba(0, 255, 0, .75),
+                -0.025em -0.025em 0 rgba(0, 0, 255, .75);
+            font-size: 10em;
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+            }
+            49% {
+                text-shadow: 
+                -0.025em -0.0125em 0 rgba(255, 0, 0, .75),
+                0.0125em 0.0125em 0 rgba(0, 255, 0, .75),
+                -0.025em -0.025em 0 rgba(0, 0, 255, .75);
+            font-size: 10em;
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+            }
+            50% {
+                text-shadow: 
+                0.0125em 0.025em 0 rgba(255, 0, 0, .75),
+                0.025em 0 0 rgba(0, 255, 0, .75),
+                0 -.0025em 0 rgba(0, 0, 255, .75);
+            font-size: 10em;
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+            }
+            99% {
+                text-shadow: 
+                0.0125em 0.025em 0 rgba(255, 0, 0, .75),
+                0.025em 0 0 rgba(0, 255, 0, .75),
+                0 -.0025em 0 rgba(0, 0, 255, .75);
+            font-size: 10em;
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+            }
+            100% {
+                text-shadow: 
+                -0.0125em 0 0 rgba(255, 0, 0, .75),
+                -0.0125em -.0125em 0 rgba(0, 255, 0, .75),
+                -0.0125em -0.025em 0 rgba(0, 0, 255, .75);
+            font-size: 10em;
+            font-family: 'Courier Prime', monospace;
+            margin-top: 35px;
+            margin-bottom: 0;
+            }
+        }
+    </style>
     <title>404 - Not Found | DeveloHub</title>
 </head>
 
@@ -41,11 +125,10 @@
         <h1 style="padding-left: 2px;"><a href="/" class="fas fa-home"></a><span id="develo"> Develo</span>Hub</h1>
         <div class="topnav-right"><h1 style="padding-top: 2px; padding-right: 3px;"><a href="https://github.com/poweredbylinux/develohub" class="fab fa-github" target="_blank" rel="noopener noreferrer"></a><span id="dark-mode-toggle" title="Toggle dark theme"><i class="fas fa-moon"></i></span></h1></div>
     </div>
-    <h1 style="font-size: 10em; font-family: 'Courier Prime', monospace; margin-bottom: 0; padding-bottom: 0; color: red;"
-    data-aos="zoom-in" data-aos-delay="400" data-aos-duration="2000">404</h1>
-    <h1 style="margin: 0;">Looks like you're lost!</h1>
-    <p style="text-align: center;">The file you asked for doesn't exist. Check if there's a typo in the URL.<br>
-    If you clicked a link <em>inside DeveloHub</em> and saw this, <a href="https://github/com/poweredbylinux/develohub/issues/new">open an issue on GitHub.</a> Add the "bug" label to your issue when you open it.</p>
+    <main><p id="glitch">404</p>
+    <h2>Looks like you're lost!</h2>
+    <p>The file you asked for doesn't exist. Check if there's a typo in the URL.<br>
+    If you clicked a link <em>inside DeveloHub</em> and saw this, <a href="https://github/com/poweredbylinux/develohub/issues/new">open an issue on GitHub.</a> Add the "bug" label to your issue when you open it.</p></main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/script.js"></script>
 </body>

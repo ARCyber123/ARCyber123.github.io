@@ -56,9 +56,7 @@ div.topnav a,
 div.topnav i {
     float: left;
     color: white;
-    text-align: right;
     text-decoration: none;
-    margin-right: 3px;
     margin-left: 10px;
     margin-top: 8px;
     -o-transition: 0.3s;
@@ -128,7 +126,7 @@ kbd {
 	border: 1px solid #000;
 	border-radius: 6px;
 	font-size: 90%;
-	padding: 4px 8px;
+	padding: 0px 5px;
 	text-align: justify;
 	white-space: nowrap;
 	overflow-x: auto;
@@ -144,8 +142,5 @@ kbd {
     }
     div.topnav {
         height: 35px;
-    }
-    video {
-        padding-top: 30px;
     }
 }

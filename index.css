@@ -52,7 +52,7 @@ div.topnav i {
     float: left;
     text-decoration: none;
     margin-left: 10px;
-    padding-top: 7px;
+    margin-top: 8px;
     -o-transition: 0.3s;
     -ms-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -95,8 +95,9 @@ div.topnav #dark-mode-toggle {
 }
 
 .links {
-    display: grid;
-    grid-template-columns: 110px 1fr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -122,14 +123,6 @@ footer {
     font-weight: normal;
 }
 
-video {
-    padding-top: 45px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
 h1#animation {
     text-align: center;
     font-size: 75pt;
@@ -143,6 +136,10 @@ div#develo-animation {
     text-shadow: #ff6601 0px 2px 3px;
 }
 
+a {
+    color: var(--link-colour);
+}
+
 @media only screen and (max-width: 487px){
     h1#animation {
         font-size: 45pt;
@@ -150,10 +147,6 @@ div#develo-animation {
     div#develo-animation {
         font-size: 60pt;
     }
-}
-
-a {
-    color: var(--link-colour);
 }
 
 @media only screen and (max-width: 343px) {
@@ -168,9 +161,6 @@ a {
     }
     div.topnav h1 a.fab.fa-github {
         padding-top: 4px !important;
-    }
-    video {
-        padding-top: 30px;
     }
     h1#animation {
         font-size: 40pt;

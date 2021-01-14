@@ -54,7 +54,9 @@ html {
     box-shadow: 0px 4px 4px gray;
 }
 
-.navbar-logo {
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
     font-size: 2em;
     margin-left: 0.5rem;
     font-weight: bold;
@@ -83,7 +85,7 @@ html {
 
 .navbar-links li a {
     text-decoration: none;
-    font-size: large;
+    font-size: x-large;
     color: white;
     padding: 0.75rem;
     display: inline-block;
@@ -100,7 +102,7 @@ html {
 
 #dark-mode-toggle {
     cursor: pointer;
-    font-size: large;
+    font-size: x-large;
     padding: 0.75rem;
     display: inline-block;
 }

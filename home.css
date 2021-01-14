@@ -1,7 +1,7 @@
 :root {
     --clr-light: white;
     --link-hover-colour: #e7e7e7;
-    --link-colour: blue;
+    --link-clr: blue;
 
     --foreground: black;
     --background: var(--clr-light);
@@ -48,7 +48,9 @@ p {
     box-shadow: 0px 4px 4px gray;
 }
 
-.navbar-logo {
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
     font-size: 2em;
     margin-left: 0.5rem;
     font-weight: bold;

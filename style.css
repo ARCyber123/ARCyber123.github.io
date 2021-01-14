@@ -174,7 +174,7 @@ kbd {
 	margin: 4px;
 }
 
-@media only screen and (max-width: 355px) {
+@media only screen and (max-width: 360px) {
     img {
         width: 85vw
     }

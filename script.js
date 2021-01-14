@@ -13,7 +13,7 @@ const navbarLinks = $('.navbar-links');
 $(hamburgerButton).on('click', () => {
     $(navbarLinks).toggleClass('active');
     if ($(navbarLinks).hasClass('active')) {
-        $(hamburgerButton).html('<i class="fas fa-times"></i>');
+        $(hamburgerButton).html('<i class="fas fa-times-circle"></i>');
     } else {
         $(hamburgerButton).html('<i class="fas fa-bars"></i>');
     }

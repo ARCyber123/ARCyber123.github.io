@@ -1,7 +1,20 @@
-$(window).on("load", function () {
+// AOS
+AOS.init();
+
+// Remove loader on page load
+
+$(window).on("load", () => {
     $(".loader-container").fadeOut("slow");
 });
-AOS.init();
+
+// Navigation bar
+
+const hamburgerButton = $('.navbar-hamburger');
+const navbarLinks = $('.navbar-links');
+
+$(hamburgerButton).on('click', () => {
+    $(navbarLinks).toggleClass('active');
+});
 
 // Dark Mode
 
@@ -17,7 +30,7 @@ const enableDarkMode = () => {
     // Change GitHub Pages image
     $(imgReplace).attr('src', '/images/ghpages-dark.png');
     // Change moon icon to sun icon
-    $(darkModeToggle).html('<i class="fas fa-sun"></i>');
+    $(darkModeToggle).html('<i class="fas fa-sun fa-fw"></i><p>Dark Mode</p>');
 };
 
 const disableDarkMode = () => {
@@ -28,7 +41,7 @@ const disableDarkMode = () => {
     // Change GitHub Pages image
     $(imgReplace).attr('src', '/images/ghpages.png');
     // Change sun icon to moon icon
-    $(darkModeToggle).html('<i class="fas fa-moon"></i>');
+    $(darkModeToggle).html('<i class="fas fa-moon fa-fw"></i><p>Dark Mode</p>');
 };
 
 if (darkMode === 'enabled'){

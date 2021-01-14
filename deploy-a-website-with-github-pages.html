@@ -36,11 +36,21 @@
 	<div class="loader-container" style="background-color: var(--background);">
 		<div class="loader"></div>
 	</div>
-	<!--Top Navigation Bar-->
-	<div class="topnav" data-aos="fade-down" data-aos-delay="200">
-		<h1 style="padding-left: 2px;"><a href="/" class="fas fa-home"></a><span id="develo"> Develo</span>Hub</h1>
-		<div class="topnav-right"><h1 style="padding-right: 3px;"><a href="https://github.com/poweredbylinux/develohub" class="fab fa-github" target="_blank" rel="noopener noreferrer"></a><span id="dark-mode-toggle" title="Toggle dark theme"><i class="fas fa-moon"></i></span></h1></div>
-	</div>
+	<!--Navigation Bar-->
+	<nav class="navbar" data-aos="fade-down" data-aos-delay="250">
+		<div class="navbar-logo"><span>Develo</span>Hub</div>
+		<span class="navbar-hamburger"><i class="fas fa-bars"></i></span>
+		<div class="navbar-links">
+			<ul>
+				<li aria-label="Home" title="Home"><a href="/"><i class="fas fa-home fa-fw"></i><p> Home</p></a></li>
+				<li aria-label="GitHub Repository" title="GitHub Repository"><a
+						href="https://github.com/poweredbylinux/develohub" target="_blank"
+						rel="noopener noreferrer"><i class="fab fa-github fa-fw"></i><p> GitHub Repository</p></a></li>
+				<li aria-label="Toggle Dark Mode" title="Toggle Dark Mode"><span id="dark-mode-toggle"><i
+							class="fas fa-moon fa-fw"></i><p> Dark Mode</p></span></li>
+			</ul>
+		</div>
+	</nav>
 	<h1>How to Deploy a Website with GitHub Pages</h1>
 	<p>GitHub is a great software development platform. Here, you will learn how to deploy a website with
 		GitHub Pages, which is an easy way to deploy a website from a GitHub repository.</p>

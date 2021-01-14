@@ -1,6 +1,6 @@
 :root {
     --clr-light: white;
-    --link-hover-colour: #e7e7e7;
+    --link-hover-clr: #e7e7e7;
     --link-clr: blue;
 
     --foreground: black;
@@ -10,8 +10,8 @@
 .darkmode {
     --clr-light: white;
     --clr-dark: #2b2b33;
-    --link-hover-colour: #444444;
-    --link-colour: #0199ff;
+    --link-hover-clr: #444444;
+    --link-clr: #0199ff;
 
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
@@ -106,10 +106,19 @@ p {
     color: white;
     text-decoration: none;
     position: absolute;
-    top: 0.75rem;
-    right: 1rem;
+    right: 0;
+    padding: 0.75rem;
     display: none;
-    font-size: 1.75em;
+    font-size: x-large;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.navbar-hamburger:hover {
+    background-color: #555;
 }
 
 /* Navigation bar styles end */
@@ -138,7 +147,7 @@ p {
 }
 
 .links:hover {
-    background-color: var(--link-hover-colour);
+    background-color: var(--link-hover-clr);
 }
 
 footer {
@@ -165,7 +174,7 @@ div#develo-animation {
 }
 
 a {
-    color: var(--link-colour);
+    color: var(--link-clr);
 }
 
 @media only screen and (max-width: 505px){

@@ -1,6 +1,6 @@
 :root {
     --clr-light: white;
-    --link-colour: blue;
+    --link-clr: blue;
 
     --foreground: black;
     --background: var(--clr-light);
@@ -9,14 +9,14 @@
 .darkmode {
     --clr-light: white;
     --clr-dark: #2b2b33;
-    --link-colour: #0199ff;
+    --link-clr: #0199ff;
 
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
 }
 
 a {
-    color: var(--link-colour);
+    color: var(--link-clr);
 }
 
 body {
@@ -112,10 +112,19 @@ html {
     color: white;
     text-decoration: none;
     position: absolute;
-    top: 0.75rem;
-    right: 1rem;
+    right: 0;
+    padding: 0.75rem;
     display: none;
-    font-size: 1.75em;
+    font-size: x-large;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.navbar-hamburger:hover {
+    background-color: #555;
 }
 
 /* Navigation bar styles end */

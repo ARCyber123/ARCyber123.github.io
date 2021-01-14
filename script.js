@@ -2,22 +2,24 @@
 AOS.init();
 
 // Remove loader on page load
-
 $(window).on("load", () => {
     $(".loader-container").fadeOut("slow");
 });
 
-// Navigation bar
-
+// Hamburger menu
 const hamburgerButton = $('.navbar-hamburger');
 const navbarLinks = $('.navbar-links');
 
 $(hamburgerButton).on('click', () => {
     $(navbarLinks).toggleClass('active');
+    if ($(navbarLinks).hasClass('active')) {
+        $(hamburgerButton).html('<i class="fas fa-times"></i>');
+    } else {
+        $(hamburgerButton).html('<i class="fas fa-bars"></i>');
+    }
 });
 
 // Dark Mode
-
 let darkMode = localStorage.getItem('darkMode');
 const darkModeToggle = $('#dark-mode-toggle');
 const imgReplace = $('#thumbnail-replace-dark');

@@ -83,7 +83,6 @@ p {
     color: white;
     padding: 0.75rem;
     display: inline-block;
-    cursor: pointer;
 }
 
 .navbar-links li:hover {
@@ -103,8 +102,6 @@ p {
 
 .navbar-hamburger {
     cursor: pointer;
-    color: white;
-    text-decoration: none;
     position: absolute;
     right: 0;
     padding: 0.75rem;
@@ -177,11 +174,12 @@ a {
     color: var(--link-clr);
 }
 
-@media only screen and (max-width: 505px){
+@media only screen and (max-width: 505px) {
     h1#animation {
         font-size: 45pt;
         margin-top: 60px;
     }
+
     div#develo-animation {
         font-size: 60pt;
     }
@@ -192,36 +190,41 @@ a {
         font-size: 40pt;
         margin-top: 70px;
     }
+
     div#develo-animation {
         font-size: 50pt;
     }
+
     .navbar-hamburger {
-        display: flex;
+        display: inline-block;
     }
+
     .navbar-links {
         display: none;
         width: 100vw;
     }
+
     .navbar-links li p {
         display: inline;
     }
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .navbar-links ul {
         flex-direction: column;
         width: 100vw;
     }
-    .navbar-links li {
-        text-align: center;
-    }
+
     .navbar-links li a,
     .navbar-links li #dark-mode-toggle {
-        padding: 0.5rem 0;
+        padding: 0.5rem;
         width: 100vw;
         font-size: large;
     }
+
     .navbar-links.active {
         display: flex;
     }

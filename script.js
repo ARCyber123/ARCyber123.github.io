@@ -13,9 +13,9 @@ const navbarLinks = $('.navbar-links');
 $(hamburgerButton).on('click', () => {
     $(navbarLinks).toggleClass('active');
     if ($(navbarLinks).hasClass('active')) {
-        $(hamburgerButton).html('<i class="fas fa-times-circle"></i>');
+        $(hamburgerButton).html('<i class="fas fa-times-circle fa-fw"></i>');
     } else {
-        $(hamburgerButton).html('<i class="fas fa-bars"></i>');
+        $(hamburgerButton).html('<i class="fas fa-bars fa-fw"></i>');
     }
 });
 
@@ -32,7 +32,7 @@ const enableDarkMode = () => {
     // Change GitHub Pages image
     $(imgReplace).attr('src', '/images/ghpages-dark.png');
     // Change moon icon to sun icon
-    $(darkModeToggle).html('<i class="fas fa-sun fa-fw"></i><p>Dark Mode</p>');
+    $(darkModeToggle).html('<i class="fas fa-sun fa-fw"></i><p> Light Mode</p>');
 };
 
 const disableDarkMode = () => {
@@ -43,7 +43,7 @@ const disableDarkMode = () => {
     // Change GitHub Pages image
     $(imgReplace).attr('src', '/images/ghpages.png');
     // Change sun icon to moon icon
-    $(darkModeToggle).html('<i class="fas fa-moon fa-fw"></i><p>Dark Mode</p>');
+    $(darkModeToggle).html('<i class="fas fa-moon fa-fw"></i><p> Dark Mode</p>');
 };
 
 if (darkMode === 'enabled'){

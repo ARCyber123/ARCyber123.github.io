@@ -196,7 +196,7 @@ a {
     }
 
     .navbar-hamburger {
-        display: inline-block;
+        display: flex;
     }
 
     .navbar-links {

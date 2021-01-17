@@ -7,52 +7,52 @@ $(window).on("load", () => {
 });
 
 // Hamburger menu
-const hamburgerButton = $('.navbar-hamburger');
-const navbarLinks = $('.navbar-links');
+const hamburgerButton = $(".navbar-hamburger");
+const navbarLinks = $(".navbar-links");
 
-$(hamburgerButton).on('click', () => {
-    $(navbarLinks).toggleClass('active');
-    if ($(navbarLinks).hasClass('active')) {
-        $(hamburgerButton).html('<i class="fas fa-times-circle fa-fw"></i>');
+$(hamburgerButton).on("click", () => {
+    $(navbarLinks).toggleClass("active");
+    if ($(navbarLinks).hasClass("active")) {
+        $(hamburgerButton).html("<i class=\"fas fa-times-circle fa-fw\"></i>");
     } else {
-        $(hamburgerButton).html('<i class="fas fa-bars fa-fw"></i>');
+        $(hamburgerButton).html("<i class=\"fas fa-bars fa-fw\"></i>");
     }
 });
 
 // Dark Mode
-let darkMode = localStorage.getItem('darkMode');
-const darkModeToggle = $('#dark-mode-toggle');
-const imgReplace = $('#thumbnail-replace-dark');
+let darkMode = localStorage.getItem("darkMode");
+const darkModeToggle = $("#dark-mode-toggle");
+const imgReplace = $("#thumbnail-replace-dark");
 
 const enableDarkMode = () => {
     // Add class "darkmode" to <body>
-    $('body').addClass('darkmode');
+    $("body").addClass("darkmode");
     // Update darkMode in localStorage
-    localStorage.setItem('darkMode', 'enabled');
+    localStorage.setItem("darkMode", "enabled");
     // Change GitHub Pages image
-    $(imgReplace).attr('src', '/images/ghpages-dark.png');
+    $(imgReplace).attr("src", "/images/ghpages-dark.png");
     // Change moon icon to sun icon
-    $(darkModeToggle).html('<i class="fas fa-sun fa-fw"></i><p> Light Mode</p>');
+    $(darkModeToggle).html("<i class=\"fas fa-sun fa-fw\"></i><p> Light Mode</p>");
 };
 
 const disableDarkMode = () => {
     // Remove class "darkmode" from <body>
-    $('body').removeClass('darkmode');
+    $("body").removeClass("darkmode");
     // Update darkMode in localStorage
-    localStorage.setItem('darkMode', null);
+    localStorage.setItem("darkMode", null);
     // Change GitHub Pages image
-    $(imgReplace).attr('src', '/images/ghpages.png');
+    $(imgReplace).attr("src", "/images/ghpages.png");
     // Change sun icon to moon icon
-    $(darkModeToggle).html('<i class="fas fa-moon fa-fw"></i><p> Dark Mode</p>');
+    $(darkModeToggle).html("<i class=\"fas fa-moon fa-fw\"></i><p> Dark Mode</p>");
 };
 
-if (darkMode === 'enabled'){
+if (darkMode === "enabled") {
     enableDarkMode();
 }
 
 $(darkModeToggle).click(() => {
-    darkMode = localStorage.getItem('darkMode');
-    if (darkMode !== 'enabled'){
+    darkMode = localStorage.getItem("darkMode");
+    if (darkMode !== "enabled") {
         enableDarkMode();
     } else {
         disableDarkMode();
@@ -60,6 +60,6 @@ $(darkModeToggle).click(() => {
 });
 
 // Automatically detect theme
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
     enableDarkMode();
 }

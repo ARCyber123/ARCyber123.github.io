@@ -160,6 +160,12 @@ footer {
 h1#animation {
     text-align: center;
     font-size: 75pt;
+    color: var(--foreground); text-shadow: var(--foreground) 0px 1px 2px;
+    -o-transition: color 0.8s, text-shadow 0.8s;
+    -ms-transition: color 0.8s, text-shadow 0.8s;
+    -moz-transition: color 0.8s, text-shadow 0.8s;
+    -webkit-transition: color 0.8s, text-shadow 0.8s;
+    transition: color 0.8s, text-shadow 0.8s;
 }
 
 div#develo-animation {

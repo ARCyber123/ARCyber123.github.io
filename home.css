@@ -85,8 +85,11 @@ p {
     display: inline-block;
 }
 
-.navbar-links li:hover {
-    background-color: #555;
+.navbar-links li:hover,
+.navbar-links a:focus,
+.navbar-links span:focus {
+    background-color: #747474;
+    outline: none;
 }
 
 .navbar-links li p {
@@ -143,8 +146,10 @@ p {
     padding: 0px 5px;
 }
 
-.links:hover {
+.links:hover,
+.links:focus {
     background-color: var(--link-hover-clr);
+    outline: none;
 }
 
 footer {
@@ -160,7 +165,8 @@ footer {
 h1#animation {
     text-align: center;
     font-size: 75pt;
-    color: var(--foreground); text-shadow: var(--foreground) 0px 1px 2px;
+    color: var(--foreground);
+    text-shadow: var(--foreground) 0px 1px 2px;
     -o-transition: color 0.8s, text-shadow 0.8s;
     -ms-transition: color 0.8s, text-shadow 0.8s;
     -moz-transition: color 0.8s, text-shadow 0.8s;

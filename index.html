@@ -6,23 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
 		content="DeveloHub makes Linux, web development and privacy simpler. This is your place for guides and explanations that make things simple.">
-	<!--Preconnect-->
+	<!-- Preconnect -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://ka-f.fontawesome.com">
 	<link rel="preconnect" href="https://kit.fontawesome.com">
-	<!--Stylesheets-->
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/home.css" type="text/css">
 	<link rel="stylesheet" href="/loader.css" type="text/css">
-	<!--Google Fonts-->
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime" type="text/css">
-	<!--Libraries-->
+	<!-- Libraries -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
 		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<!--Font Awesome icon kit-->
+	<!-- Font Awesome icon kit -->
 	<script src="https://kit.fontawesome.com/53ec121b0c.js" crossorigin="anonymous"></script>
-	<!--Icons-->
+	<!-- Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ff6601">
 	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
@@ -34,32 +34,32 @@
 </head>
 
 <body>
-	<!--Loader-->
+	<!-- Loader -->
 	<div class="loader-container" style="background-color: var(--background);">
 		<div class="loader"></div>
 	</div>
-	<!--Navigation Bar-->
+	<!-- Navigation Bar -->
 	<nav class="navbar" data-aos="fade-down" data-aos-delay="250">
 		<div class="navbar-logo"><a href="/"><span>Develo</span>Hub</a></div>
 		<span class="navbar-hamburger"><i class="fas fa-bars fa-fw"></i></span>
 		<div class="navbar-links">
 			<ul>
-				<li aria-label="Home" title="Home"><a href="/"><i class="fas fa-home fa-fw"></i>
+				<li aria-label="Home" title="Home"><a href="/" tabindex="1"><i class="fas fa-home fa-fw"></i>
 						<p> Home</p>
 					</a></li>
 				<li aria-label="GitHub Repository" title="GitHub Repository"><a
-						href="https://github.com/poweredbylinux/develohub" target="_blank" rel="noopener noreferrer"><i
-							class="fab fa-github fa-fw"></i>
+						href="https://github.com/poweredbylinux/develohub" target="_blank" rel="noopener noreferrer"
+						tabindex="2"><i class="fab fa-github fa-fw"></i>
 						<p> GitHub Repository</p>
 					</a></li>
-				<li aria-label="Toggle Dark Mode" title="Toggle Dark Mode"><span id="dark-mode-toggle"><i
+				<li aria-label="Toggle Dark Mode" title="Toggle Dark Mode"><span id="dark-mode-toggle" tabindex="3"><i
 							class="fas fa-moon fa-fw"></i>
 						<p> Dark Mode</p>
 					</span></li>
 			</ul>
 		</div>
 	</nav>
-	<!--Animated Logo-->
+	<!-- Animated Logo -->
 	<h1 id="animation">
 		<div id="develo-animation" data-aos="fade-zoom-in" data-aos-duration="2300" data-aos-delay="500">Develo</div>
 		<div data-aos="fade-down" data-aos-delay="500" data-aos-duration="2300">Hub</div>
@@ -67,34 +67,35 @@
 	<p>Welcome to DeveloHub.<br>
 		DeveloHub makes Linux, web development and privacy simpler.<br>
 		This is your place for guides and explanations that make things simple.</p>
+	<!-- Links to articles -->
 	<h2>Web Development</h2>
 	<a href="/deploy-a-website-with-github-pages.html" class="links" data-aos="fade-right"
-		data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom"><img src="/images/ghpages.png"
-			class="thumbnails" alt="GitHub Pages" id="thumbnail-replace-dark">
+		data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom" tabindex="4"><img
+			src="/images/ghpages.png" class="thumbnails" alt="GitHub Pages" id="thumbnail-replace-dark">
 		<p>Learn how to deploy a website using GitHub Pages<br><span class="desc">Make an open-source
 				website!</span>
 		</p>
 	</a>
 	<a href="/getting-started-with-netlify.html" class="links" data-aos="fade-right" data-aos-easing="ease-out-cubic"
-		data-aos-anchor-placement="center-bottom"><img src="/images/netlify-logo.png" class="thumbnails" alt="Netlify"
-			style="padding-bottom: 10px;">
+		data-aos-anchor-placement="center-bottom" tabindex="5"><img src="/images/netlify-logo.png" class="thumbnails"
+			alt="Netlify" style="padding-bottom: 10px;">
 		<p>Getting started with Netlify<br><span class="desc">Learn how to publish a website with Netlify</span></p>
 	</a>
 	<h2>Linux</h2>
 	<a href="/pros-and-cons-of-linux.html" class="links" data-aos="fade-right" data-aos-easing="ease-out-cubic"
-		data-aos-anchor-placement="center-bottom"><img src="/images/linux-logo.png" class="thumbnails" alt="
+		data-aos-anchor-placement="center-bottom" tabindex="6"><img src="/images/linux-logo.png" class="thumbnails" alt="
 		Linux">
 		<p>Pros and cons of Linux<br><span class="desc">Why Linux should be popularized</span></p>
 	</a>
 	<a href="/beginners-guide-to-arch-and-its-derivatives.html" class="links" data-aos="fade-right"
-		data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom"><img src="/images/arch-logo.png"
-			alt="Arch Linux" class="thumbnails" style="padding-bottom: 5px;">
+		data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom" tabindex="7"><img
+			src="/images/arch-logo.png" alt="Arch Linux" class="thumbnails" style="padding-bottom: 5px;">
 		<p>Beginner's guide to Arch Linux and its derivatives<br>
 			<span class="desc">Important things to know when using Arch and its derivatives</span>
 		</p>
 	</a>
 	<footer>
-		<!--Disclaimer-->
+		<!-- Disclaimer -->
 		<h5>Disclaimer: The purpose of this website is for education. Some of the contents/images of this site have been
 			sourced from public domains. We do not claim any responsibility towards the authenticity of
 			information/data/images provided herein. They can be subject to changes from time to time as per the

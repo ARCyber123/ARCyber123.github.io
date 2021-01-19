@@ -95,8 +95,11 @@ html {
     display: inline-block;
 }
 
-.navbar-links li:hover {
+.navbar-links li:hover,
+.navbar-links a:focus,
+.navbar-links span:focus {
     background-color: #555;
+    outline: none;
 }
 
 .navbar-links li p {

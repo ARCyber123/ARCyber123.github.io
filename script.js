@@ -2,8 +2,8 @@
 AOS.init();
 
 // Remove loader on page load
-$(window).on("load", () => {
-    $(".loader-container").fadeOut("slow");
+$(document).ready(() => {
+    $(".loader-container").fadeOut();
 });
 
 // Hamburger menu
@@ -50,16 +50,20 @@ if (darkMode === "enabled") {
     enableDarkMode();
 }
 
-$(darkModeToggle).click(() => {
+// Automatically detect theme
+if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    enableDarkMode();
+}
+
+const darkModeSwitcher = () => {
     darkMode = localStorage.getItem("darkMode");
     if (darkMode !== "enabled") {
         enableDarkMode();
     } else {
         disableDarkMode();
     }
-});
+};
 
-// Automatically detect theme
-if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    enableDarkMode();
-}
+// Dark mode toggle button event listeners
+$(darkModeToggle).click(darkModeSwitcher);
+$(darkModeToggle).keypress(darkModeSwitcher);

@@ -21,10 +21,6 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: var(--background);
     color: var(--foreground);
-    -o-transition: 0.8s;
-    -ms-transition: 0.8s;
-    -moz-transition: 0.8s;
-    -webkit-transition: 0.8s;
     transition: 0.8s;
 }
 
@@ -32,7 +28,7 @@ p {
     line-height: 1.7;
 }
 
-/* Navigation bar styles begin */
+/* Begin navigation bar styles */
 
 .navbar {
     display: flex;
@@ -62,22 +58,18 @@ p {
     color: #ff6601;
 }
 
-.navbar-links ul {
+.nav__links ul {
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.navbar-links li {
+.nav__links li {
     list-style: none;
-    -o-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
-.navbar-links li a {
+.nav__links li a {
     text-decoration: none;
     font-size: x-large;
     color: white;
@@ -85,14 +77,14 @@ p {
     display: inline-block;
 }
 
-.navbar-links li:hover,
-.navbar-links a:focus,
-.navbar-links span:focus {
+.nav__links li:hover,
+.nav__links a:focus,
+.nav__links span:focus {
     background-color: #747474;
     outline: none;
 }
 
-.navbar-links li p {
+.nav__links li p {
     display: none;
 }
 
@@ -110,10 +102,6 @@ p {
     padding: 0.75rem;
     display: none;
     font-size: x-large;
-    -o-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -121,7 +109,9 @@ p {
     background-color: #555;
 }
 
-/* Navigation bar styles end */
+/* End navigation bar styles */
+
+/* Begin article link styles */
 
 .thumbnails {
     width: 100px;
@@ -152,33 +142,57 @@ p {
     outline: none;
 }
 
-footer {
-    color: gray;
-    margin-top: 70px;
-}
-
-.desc {
+.link__description {
     color: gray;
     font-weight: normal;
 }
+
+/* End article link styles */
+
+/* Begin footer styles */
+
+footer {
+    font-weight: 300;
+    text-align: center;
+    padding: 1em;
+    margin: -8px;
+    color: #d6d6d6;
+    margin-top: 100px;
+    font-size: small;
+    background-color: #333333;
+}
+
+footer a {
+    color: #1ea5ff;
+}
+
+footer #footer__links a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: white;
+    font-size: x-large;
+    transition: transform 0.3s;
+}
+
+footer #footer__links a:hover {
+    transform: scale(1.25);
+}
+
+/* End footer styles */
 
 h1#animation {
     text-align: center;
     font-size: 75pt;
     color: var(--foreground);
     text-shadow: var(--foreground) 0px 1px 2px;
-    -o-transition: color 0.8s, text-shadow 0.8s;
-    -ms-transition: color 0.8s, text-shadow 0.8s;
-    -moz-transition: color 0.8s, text-shadow 0.8s;
-    -webkit-transition: color 0.8s, text-shadow 0.8s;
     transition: color 0.8s, text-shadow 0.8s;
 }
 
-div#develo-animation {
+#animation div:first-child {
     margin-top: 45px;
     color: #ff6601;
     font-family: 'Courier Prime', monospace;
-    font-size: 100pt;
+    font-size: 105pt;
     text-shadow: #ff6601 0px 2px 3px;
 }
 
@@ -192,8 +206,8 @@ a {
         margin-top: 60px;
     }
 
-    div#develo-animation {
-        font-size: 60pt;
+    #animation div:first-child {
+        font-size: 65pt;
     }
 }
 
@@ -203,20 +217,20 @@ a {
         margin-top: 70px;
     }
 
-    div#develo-animation {
-        font-size: 50pt;
+    #animation div:first-child {
+        font-size: 55pt;
     }
 
     .navbar-hamburger {
         display: flex;
     }
 
-    .navbar-links {
+    .nav__links {
         display: none;
         width: 100vw;
     }
 
-    .navbar-links li p {
+    .nav__links li p {
         display: inline;
     }
 
@@ -225,19 +239,19 @@ a {
         align-items: flex-start;
     }
 
-    .navbar-links ul {
+    .nav__links ul {
         flex-direction: column;
         width: 100vw;
     }
 
-    .navbar-links li a,
-    .navbar-links li #dark-mode-toggle {
+    .nav__links li a,
+    .nav__links li #dark-mode-toggle {
         padding: 0.5rem;
         width: 100vw;
         font-size: large;
     }
 
-    .navbar-links.active {
+    .nav__links.active {
         display: flex;
     }
 }

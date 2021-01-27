@@ -44,18 +44,22 @@ p {
     box-shadow: 0px 4px 4px gray;
 }
 
-.navbar-logo a {
+.navbar__logo a {
     color: white;
     text-decoration: none;
     font-size: 2em;
-    margin-left: 0.5rem;
+    padding: 0.5rem;
     font-weight: bold;
 }
 
-.navbar-logo span {
+.navbar__logo span {
     font-family: 'Courier New', monospace;
     font-size: 1.2em;
     color: #ff6601;
+}
+
+.navbar__logo a:hover {
+    background-color: #494949;
 }
 
 .nav__links ul {
@@ -80,7 +84,7 @@ p {
 .nav__links li:hover,
 .nav__links a:focus,
 .nav__links span:focus {
-    background-color: #747474;
+    background-color: #494949;
     outline: none;
 }
 

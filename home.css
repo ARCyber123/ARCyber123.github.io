@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     background-color: var(--background);
     color: var(--foreground);
     transition: 0.8s;
@@ -48,12 +48,13 @@ p {
     color: white;
     text-decoration: none;
     font-size: 2em;
-    padding: 0.5rem;
+    padding: 0.45rem;
     font-weight: bold;
+    transition: 300ms;
 }
 
 .navbar__logo span {
-    font-family: 'Courier New', monospace;
+    font-family: "Courier New", monospace;
     font-size: 1.2em;
     color: #ff6601;
 }
@@ -195,7 +196,7 @@ h1#animation {
 #animation div:first-child {
     margin-top: 45px;
     color: #ff6601;
-    font-family: 'Courier Prime', monospace;
+    font-family: "Courier Prime", monospace;
     font-size: 105pt;
     text-shadow: #ff6601 0px 2px 3px;
 }

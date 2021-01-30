@@ -29,7 +29,7 @@ a {
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     background-color: var(--background);
     color: var(--foreground);
     -o-transition: 0.8s;
@@ -67,8 +67,9 @@ html {
     color: white;
     text-decoration: none;
     font-size: 2em;
-    padding: 0.5rem;
+    padding: 0.45rem;
     font-weight: bold;
+    transition: 300ms;
 }
 
 .navbar__logo a:hover {
@@ -76,7 +77,7 @@ html {
 }
 
 .navbar__logo span {
-    font-family: 'Courier New', monospace;
+    font-family: "Courier New", monospace;
     font-size: 1.2em;
     color: #ff6601;
 }
@@ -194,7 +195,7 @@ code {
     background-color: var(--code-bg);
     color: var(--foreground);
     font-size: large;
-    font-family: 'Courier Prime', monospace;
+    font-family: "Courier Prime", monospace;
     border-radius: 10px;
     padding: 5px 3px;
     margin: 5px 3px;
@@ -206,7 +207,7 @@ code {
 }
 
 span.inline-code {
-    font-family: 'Courier Prime', monospace;
+    font-family: "Courier Prime", monospace;
     background-color: var(--code-bg);
     color: var(--foreground);
     -o-transition: background-color 0.8s, color 0.8s;
@@ -217,7 +218,7 @@ span.inline-code {
 }
 
 kbd {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     border: 1px solid #000;
     border-radius: 6px;
     font-size: 90%;
@@ -238,7 +239,7 @@ kbd {
 
 @media only screen and (max-width: 360px) {
     img {
-        width: 85vw
+        width: 85vw;
     }
 
     .navbar-hamburger {

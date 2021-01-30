@@ -3,8 +3,7 @@ name: Bug report
 about: Create a bug report to help us fix problems
 title: Bug report
 labels: bug
-assignees: poweredbylinux
-
+assignees: opensourcifier
 ---
 
 **Describe the bug**

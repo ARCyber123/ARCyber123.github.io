@@ -2,7 +2,7 @@
 AOS.init();
 
 // Remove loader on page load
-$(document).ready(() => {
+$(window).on("load", () => {
 	$(".loader-container").fadeOut();
 });
 

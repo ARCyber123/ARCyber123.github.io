@@ -279,4 +279,8 @@ kbd {
     .nav__links.active {
         display: flex;
     }
+
+    .navbar__logo a:hover {
+        background-color: none;
+    }
 }

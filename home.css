@@ -51,7 +51,6 @@ p {
     text-decoration: none;
     font-size: 2em;
     padding: 0.45rem;
-    margin: 0.45rem;
     font-weight: bold;
     transition: 300ms;
 }
@@ -262,5 +261,9 @@ a {
 
     .nav__links.active {
         display: flex;
+    }
+
+    .navbar__logo a:hover {
+        background-color: none;
     }
 }

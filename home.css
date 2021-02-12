@@ -8,13 +8,11 @@
 }
 
 .darkmode {
-    --clr-light: white;
-    --clr-dark: #2b2b33;
     --link-hover-clr: #444444;
     --link-clr: #0199ff;
 
-    --foreground: var(--clr-light);
-    --background: var(--clr-dark);
+    --foreground: white;
+    --background: #2b2b33;
 }
 
 body {
@@ -102,7 +100,7 @@ p {
     display: inline-block;
 }
 
-.navbar-hamburger {
+.navbar__menu-btn {
     cursor: pointer;
     position: absolute;
     right: 0;
@@ -112,7 +110,7 @@ p {
     transition: 0.3s;
 }
 
-.navbar-hamburger:hover {
+.navbar__menu-btn:hover {
     background-color: #555;
 }
 
@@ -229,7 +227,7 @@ a {
         font-size: 55pt;
     }
 
-    .navbar-hamburger {
+    .navbar__menu-btn {
         display: flex;
     }
 

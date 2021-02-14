@@ -61,7 +61,6 @@ html {
     text-decoration: none;
     font-size: 2em;
     padding: 0.45rem;
-    margin: 0.45rem;
     font-weight: bold;
     transition: 300ms;
 }
@@ -162,7 +161,8 @@ footer #footer__links a:focus {
 /* End footer styles */
 
 h1 {
-    margin-top: 10vh;
+    font-size: 2.5em;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -208,9 +208,30 @@ kbd {
     transition: background-color 0.8s, color 0.8s, box-shadow 0.8s;
 }
 
+noscript {
+    height: 100%;
+    width: 95%;
+    text-align: center;
+    background-color: var(--background);
+    color: var(--foreground);
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 999;
+}
+
+noscript h1 {
+    font-size: 2em;
+}
+
 @media only screen and (max-width: 360px) {
     img {
         width: 85vw;
+    }
+
+    h1 {
+        font-size: 2em;
     }
 
     .navbar__menu-btn {

@@ -202,6 +202,19 @@ h1#animation {
     text-shadow: #ff6601 0px 2px 3px;
 }
 
+noscript {
+    height: 100%;
+    width: 95%;
+    text-align: center;
+    background-color: var(--background);
+    color: var(--foreground);
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 999;
+}
+
 a {
     color: var(--link-clr);
 }
